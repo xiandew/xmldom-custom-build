@@ -1,0 +1,24 @@
+{
+  "name": "xmldom-custom-build",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "webpack --config webpack.config.js --watch",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "Paul Wen <xiandepaul.wen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "eventemitter2": "^4.1.2",
+    "path": "^0.12.7",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^4.3.1",
+    "xmldom": "^0.4.0"
+  }
+}
